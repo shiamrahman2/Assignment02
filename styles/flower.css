@@ -293,7 +293,7 @@ nav a{
 .footer-ul{
     list-style:none;
     display:grid;
-    gap:48px;
+    gap:40px;
 }
 footer li a{
     text-decoration:none;
@@ -420,9 +420,9 @@ footer li a{
     }
     #input-email{
     font-size:1rem;
-    width:150px;
+    width:130px;
     height:40px;
-    padding:10px 150px 10px 15px;
+    padding:10px 115px 10px 15px;
 }
   .input-field-header{
     font-size:1.5rem;
@@ -434,10 +434,21 @@ footer li a{
     border:none;
 }
   .main-footer{
-    margin:50px 15px 20px 15px;
+    margin:0 auto;
     flex-direction:column;
   }
-  .anchor-footer-01,.anchor-footer-02{
+  /* .anchor-footer-01,.anchor-footer-02{
    margin-left:15px;
-  }
+  } */
+   .footer-ul{
+    gap:25px;
+   }
+   .anchor-footer-01 a{
+    margin-left:-37px;
+   }
+   .anchor-footer-02 a{
+    margin-left:-37px;
+   }
+   
+
 }
